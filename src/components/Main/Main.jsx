@@ -72,7 +72,7 @@ const Main = () => {
 
         <div className="main-bottom">
           <div className="search-box">
-            <input onChange={(e) => setInput(e.target.value)} value={input} type="text" color="#0000FF"   placeholder='Enter a prompt here' />
+            <input onChange={(e) => setInput(e.target.value)} value={input} type="text" color="#0000FF"   placeholder='Ask me anything' />
             <div>
               <img src={assets.gallery_icon} width={30} alt="" />
               <img src={assets.mic_icon} width={30} alt="" />
